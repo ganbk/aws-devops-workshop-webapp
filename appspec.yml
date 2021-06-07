@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+  - source: target/ROOT.war
+    destination: /bin/apache-tomcat-9.0.46/webapps/
+file_exists_behavior: OVERWRITE
